@@ -2,7 +2,7 @@
 
 **Generated:** November 14, 2025  
 **Project Status:** Production-Ready with Advanced Database Features
-
+**Repository:** https://github.com/Narasimhulu02/university-management
 ---
 
 ## Table of Contents
