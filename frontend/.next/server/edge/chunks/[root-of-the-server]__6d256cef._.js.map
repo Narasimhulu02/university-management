@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/university-management-system/frontend/middleware.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\n\nexport async function middleware(request: NextRequest) {\n  // TODO: Implement session validation via backend API\n  // For now, allow all requests\n  return NextResponse.next();\n}\n\nexport const config = {\n  matcher: [\"/dashboard\"],\n};"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEO,eAAe,WAAW,OAAoB;IACnD,qDAAqD;IACrD,8BAA8B;IAC9B,OAAO,+OAAA,CAAA,eAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;KAAa;AACzB"}}]
+}

@@ -1,0 +1,228 @@
+{
+  "universities": [
+    {
+      "universityId": 25,
+      "name": "PES University",
+      "location": "Bangalore",
+      "establishedYear": 1972
+    },
+    {
+      "universityId": 26,
+      "name": "IISc Bangalore",
+      "location": "Bangalore",
+      "establishedYear": 1909
+    },
+    {
+      "universityId": 27,
+      "name": "NIT Karnataka",
+      "location": "Surathkal",
+      "establishedYear": 1960
+    },
+    {
+      "universityId": 28,
+      "name": "PES",
+      "location": "Bangalore",
+      "establishedYear": 1993
+    }
+  ],
+  "departments": [
+    {
+      "departmentId": 19,
+      "name": "Computer Science",
+      "building": "Building A",
+      "hodId": null,
+      "universityId": 25
+    },
+    {
+      "departmentId": 20,
+      "name": "Electrical Engineering",
+      "building": "Building B",
+      "hodId": null,
+      "universityId": 25
+    },
+    {
+      "departmentId": 21,
+      "name": "Mechanical Engineering",
+      "building": "Building C",
+      "hodId": null,
+      "universityId": 26
+    },
+    {
+      "departmentId": 22,
+      "name": "CSE",
+      "building": "BE",
+      "hodId": null,
+      "universityId": 28
+    }
+  ],
+  "faculty": [
+    {
+      "facultyId": 21,
+      "name": "Prof. Alice Brown",
+      "designation": "Professor",
+      "email": "alice.brown@university.edu",
+      "phone": "+1-234-567-8901",
+      "departmentId": 19
+    },
+    {
+      "facultyId": 22,
+      "name": "Prof. Bob Davis",
+      "designation": "Associate Professor",
+      "email": "bob.davis@university.edu",
+      "phone": "+1-234-567-8902",
+      "departmentId": 19
+    },
+    {
+      "facultyId": 23,
+      "name": "Murthy Narasimhulu",
+      "designation": "Proff",
+      "email": "murthynarasimhulu2010@gmail.com",
+      "phone": "9876543210",
+      "departmentId": 22
+    }
+  ],
+  "students": [
+    {
+      "studentId": 28,
+      "name": "John Doe",
+      "email": "john.doe@student.edu",
+      "dateOfBirth": "2003-05-15",
+      "gender": "Male",
+      "address": "123 Main St, Bangalore",
+      "phone": "+1-234-567-8903",
+      "departmentId": 19
+    },
+    {
+      "studentId": 29,
+      "name": "Jane Smith",
+      "email": "jane.smith@student.edu",
+      "dateOfBirth": "2003-08-22",
+      "gender": "Female",
+      "address": "456 Oak Ave, Bangalore",
+      "phone": "+1-234-567-8904",
+      "departmentId": 19
+    },
+    {
+      "studentId": 30,
+      "name": "Murthy",
+      "email": "murthy420@gmail.com",
+      "dateOfBirth": "2006-07-02",
+      "gender": "Male",
+      "address": "PES University Dwaraka Nagar Banashankari",
+      "phone": "8125763157",
+      "departmentId": 22
+    }
+  ],
+  "courses": [
+    {
+      "courseId": 24,
+      "courseName": "Data Structures",
+      "credits": 4,
+      "semester": 3,
+      "departmentId": 19
+    },
+    {
+      "courseId": 25,
+      "courseName": "Algorithms",
+      "credits": 4,
+      "semester": 4,
+      "departmentId": 19
+    },
+    {
+      "courseId": 26,
+      "courseName": "Database Systems",
+      "credits": 3,
+      "semester": 5,
+      "departmentId": 19
+    },
+    {
+      "courseId": 27,
+      "courseName": "Data structures",
+      "credits": 5,
+      "semester": 3,
+      "departmentId": 22
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": 19,
+      "name": "Digital Logic Design",
+      "credits": 4,
+      "courseId": 25,
+      "facultyId": 22
+    },
+    {
+      "subjectId": 20,
+      "name": "Data Structures",
+      "credits": 3,
+      "courseId": 27,
+      "facultyId": 23
+    },
+    {
+      "subjectId": 21,
+      "name": "Big Data",
+      "credits": 4,
+      "courseId": 25,
+      "facultyId": 22
+    }
+  ],
+  "classrooms": [
+    {
+      "classroomId": 28,
+      "roomNumber": "101",
+      "building": "Building A",
+      "capacity": 40
+    },
+    {
+      "classroomId": 29,
+      "roomNumber": "102",
+      "building": "Building A",
+      "capacity": 35
+    },
+    {
+      "classroomId": 30,
+      "roomNumber": "201",
+      "building": "Building B",
+      "capacity": 50
+    },
+    {
+      "classroomId": 31,
+      "roomNumber": "202",
+      "building": "Building B",
+      "capacity": 45
+    },
+    {
+      "classroomId": 32,
+      "roomNumber": "301",
+      "building": "Building C",
+      "capacity": 35
+    },
+    {
+      "classroomId": 33,
+      "roomNumber": "104",
+      "building": "BE",
+      "capacity": 64
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 14,
+      "studentId": 30,
+      "courseId": 27,
+      "grade": "A"
+    }
+  ],
+  "schedules": [
+    {
+      "id": 17,
+      "subjectId": 20,
+      "classroomId": 33,
+      "day": "Monday",
+      "timeSlot": "09:00-10:00"
+    }
+  ],
+  "users": [],
+  "sessions": [],
+  "accounts": [],
+  "verifications": []
+}

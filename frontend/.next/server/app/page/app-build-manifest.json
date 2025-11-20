@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/university-management-system_frontend_app_globals_2ec8bf98.css",
+      "static/chunks/university-management-system_frontend_99eb428e._.js",
+      "static/chunks/university-management-system_f85ea5fc._.js",
+      "static/chunks/university-management-system_frontend_app_layout_tsx_23b0d054._.js",
+      "static/chunks/university-management-system_frontend_app_global-error_tsx_7fc55e6c._.js",
+      "static/chunks/university-management-system_frontend_app_global-error_tsx_8f416e86._.js",
+      "static/chunks/university-management-system_33c0325a._.js",
+      "static/chunks/university-management-system_frontend_747f17cd._.js",
+      "static/chunks/university-management-system_frontend_app_page_tsx_8f416e86._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_5eb0d8a5._.js",
+      "static/chunks/4757d_next_dist_compiled_4a48a4d5._.js",
+      "static/chunks/4757d_next_dist_client_fa2b8edd._.js",
+      "static/chunks/4757d_next_dist_ffedf025._.js",
+      "static/chunks/4757d_@swc_helpers_cjs_88b16440._.js",
+      "static/chunks/university-management-system_frontend_e69f0d32._.js",
+      "static/chunks/university-management-system_frontend_89252089._.js"
+    ]
+  }
+}

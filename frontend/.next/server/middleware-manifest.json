@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/university-management-system_frontend_b9bdd246._.js",
+        "server/edge/chunks/[root-of-the-server]__6d256cef._.js",
+        "server/edge/chunks/university-management-system_frontend_edge-wrapper_b723ee28.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/dashboard(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/dashboard"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "oGFPym2bL6QVy6FplR7ufKkJJ9BycSFFx0wMcrcsdcw=",
+        "__NEXT_PREVIEW_MODE_ID": "2817844bc0d4defd59a92ac2e99cc278",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "29d08f3970e263a2b59354522ffc70be23192790bf6a10c75bdd0c0d8e184c62",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "1b75f48ae7c4017db24b5b9322701e39f93db393463939344c5db2a3942c236d"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}
